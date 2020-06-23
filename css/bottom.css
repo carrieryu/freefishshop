@@ -1,0 +1,28 @@
+.footer p{
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.8em;
+	vertical-align: middle;
+	margin: 0.4em 0;
+}
+.footer p a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer{
+	padding: 1em 0;
+	background-color: #000000;
+}
+.footer-right ul{
+	padding: 0;
+}
+.footer-right li{
+	display: inline-block;
+	margin: 0 1em;
+}
+.footer-left{
+	float: left;
+}
+.footer-right{
+	float: right;
+}

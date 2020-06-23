@@ -1,0 +1,162 @@
+body{
+	padding-top:65px;
+ background-color:#D9D9D957;
+}
+h2{
+	font-family: fangsong;
+}
+.classify{
+	background-color:#D9D9D957;
+	padding-top:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: -30px;
+}
+.classify a{
+	color: #222222;
+}
+#bg img{
+	height: 60px;
+	width:100%;
+	opacity: 0.5;
+}
+/*#bg{
+	position: relative;
+}
+#bg p{
+	position: absolute;
+	left:40%;
+	top: 10px;
+	font-size:30px;
+	color:#58554a;
+}*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#bg p{
+		left: 30%;
+font-size:20px;
+	}
+	#jum small{
+		font-size: 14px;
+	}
+}
+.submenu{
+	padding-bottom: 0px;
+}
+.submenu a{
+	color: #000000;
+}
+#jum{
+	background-color: white;
+	margin-bottom: 10px;
+	padding-bottom: 200px;
+}
+#jumtwo{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 20px;
+	margin-left: -15px;
+	padding-right: 20px;
+	background-color: white;
+	background-image: url(../img/bg11.png);
+	background-size:cover;
+}
+#jumtwo small{
+	font-size: 12px;
+}
+#jumtwo img{
+	height: 230px;
+	width: 230px;
+}
+#jumtwo a{
+	border: none;
+}
+#length img{
+	width: 300px;
+}
+.box img{
+	height: 200px;
+	width: 200px;
+}
+#pic{
+	background-color:#D9534F;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#pic a{
+	padding-bottom: 5px;
+}
+#pic a img{
+	width: 30px;
+	height: 30px;
+}
+#picbox{
+	/*父元素里面包含要变换的内容,所以要设置为3D变换*/
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition: 1.5s;/*设置在1.5s内完成转换*/
+}
+#picbox:hover{
+	transform: rotateY(180deg);
+}
+.box{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+.front{
+	border: 2px solid #ddd;
+	box-shadow: 10px 10px 10px #aaa;/*阴影*/
+}
+.back{
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);/*逆时针旋转*/
+	background:  #8b4373;
+	border: 2px solid #ddd;
+}
+.back h3{
+	text-align: center;
+	color: white;
+}
+.back p{
+	padding-top: 8px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+#allrow{
+	background-color: white;
+}
+#allrow img{
+	width: 205.5px;
+	height: 205.5px;
+}
+#allrow hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#product{
+	border: none;
+}
+#cart{
+	float: right;
+	border: none;
+}
+#cart img{
+	width: 25px;
+	height: 25px;
+}
+.shop{
+	color: #737373;
+}
+.shop:hover{
+	color:red;
+}
+

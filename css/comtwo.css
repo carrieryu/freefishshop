@@ -1,0 +1,181 @@
+#main{
+	/*background-color: #000000;*/
+	padding-top:100px;
+}
+.row img{
+	height: 300px;
+	width: 240px;
+	padding-right: 20px;
+}
+.jumbotron{
+	/*background-color: #000;*/
+	background-color: white;
+	padding: 20px;
+}
+#rightNav{
+	padding-top:150px;
+}
+.jumbotron p{
+	font-size: 15px;
+	display: inline;
+}
+.jumbotron a p{
+	display: inline;
+}
+#fourth img{
+	height: 200px;
+	width: 200px;
+	padding: 15px;
+}
+#brand{
+	margin-bottom: -50px;
+}
+#brand img{
+	height: 150px;
+	width: 150px;
+}
+#logo{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: -150px;
+}
+#store{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -20px;
+	padding-top: 65px;
+}
+#store a:hover{
+	color: red;
+}
+#myCarousel{
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color:#28770c;
+}
+#myCarousel img{
+	height: 400px;
+	width: 500px;
+}
+#slideshow{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#second{
+	padding-left: 20px;
+}
+big{
+	color: red;
+	font-size: 30px;
+}
+#price{
+	background-color:#FCD8C778;
+	margin-bottom: 0px;
+}
+#cart{
+	float: right;
+	text-align: center;
+	padding-right: 0px;
+	margin-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-top: 8px;
+	border: none;
+	background-color:#FCD8C726;
+}
+#cart img{
+	height:25px;
+	width:40px;
+	padding-right: 11px;
+}
+#cart:hover{
+	background-color:white;
+}
+#favorable{
+	background-color:#FCD8C745;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#favorable a:hover{
+	color: red;
+}
+#kinds a{
+	color: #757272;
+}
+#fourth a p{
+	position: absolute;
+}
+#advice{
+	text-align: center;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+#advice a{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	background-color:#FCD8C7BF;
+	border-radius: 15px 15px;
+	color:#7d6666;
+}
+#advise a img{
+	height: 100px;
+	width: 100px;
+}
+#user{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#user p{
+	padding-left: 15px;
+}
+#pho{
+	text-align: center;
+}
+#pho a img{
+	height: 150px;
+	width: 150px;
+}
+#page nav{
+	text-align: center;
+}
+#five{
+	padding-top: 0px;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#five a img{
+	width:850px;
+	height: auto;
+}
+#six{
+	margin-bottom:0px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#six a img{
+	height: 220px;
+	width: 220px;
+}
+#ls{
+	margin-right:0px;
+}
+#seven{
+	margin-bottom:0px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#seven a img{
+	height: 220px;
+	width: 220px;
+}
+#artical{
+	margin-bottom: 50px;
+}
+	
+

@@ -1,0 +1,24 @@
+.banner{
+	background:#fff;
+}
+/*轮播图*/
+.pic{
+	margin: 0 auto;
+	width: 800px;
+	height:470px;
+	padding: 20px;
+}
+.pic img{
+	margin: 5px 5px;
+	width:800px;
+	height:470px;
+}
+.carousel{
+	background-color:white;
+}
+/*当窗口小于992px时缩小轮播div的宽度，图片换行*/
+@media(max-width:1250px ) {
+	.pic{
+		width: 415px;
+	}
+}

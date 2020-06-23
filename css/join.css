@@ -1,0 +1,36 @@
+#loginForm{
+	background-color:rgba(20, 29, 80, 0.58);
+	top:23%;
+	height: 400px;
+	padding: 10px;
+}
+#loginForm img{
+	height:50px;
+	width: 150px;
+}
+.bg{
+	background:url(../img/bg-banner.jpg) no-repeat center;
+	background-size:cover;
+	height:750px;
+}
+h4{
+	color: white;
+	float: right;
+	padding-top: 5px;
+}
+#input{
+	padding-top: 15px;
+	background-color:rgba(20, 29, 80, 0.04);
+}
+hr{
+	margin: 5px;
+}
+#rightFloat{
+	float: right;
+}
+small{
+	color: white;
+}
+.checkbox{
+	color: white;
+}
