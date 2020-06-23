@@ -1,0 +1,118 @@
+body{
+	padding-top:65px;
+ background-color:#D9D9D957;
+}
+h2{
+	font-family: fangsong;
+}
+.classify{
+	background-color:#D9D9D957;
+	padding-top:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: -30px;
+}
+.classify a{
+	color: #222222;
+}
+#bg img{
+	height: 60px;
+	width:100%;
+	opacity: 0.5;
+}
+#bg{
+	position: relative;
+}
+#bg p{
+	position: absolute;
+	left:40%;
+	top: 10px;
+	font-size:30px;
+	color:#58554a;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#bg p{
+		left: 30%;
+font-size:20px;
+	}
+}
+.submenu{
+	padding-bottom: 0px;
+}
+.submenu a{
+	color: #000000;
+}
+#jum{
+	height: auto;
+	background-color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+#jum small ul li{
+	display: inline;
+	text-decoration: none;
+	margin-left: 5px;
+}
+h4 p small{
+	font-family: "微软雅黑";
+	font-style: italic;
+	font-size: 10px;
+	color: rgb(255,128,255);
+}
+.all{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#all{
+	background-color:#D9D9D957;
+}
+#all h2{
+	padding-left: 35px;
+}
+.all img{
+	width: 205.5px;
+	height: 205.5px;
+}
+#allrow{
+	background-color: white;
+}
+#product{
+	border: none;
+}
+#cart{
+	float: right;
+	border: none;
+}
+#cart img{
+	width: 25px;
+	height: 25px;
+}
+.shop{
+	color: #737373;
+}
+.shop:hover{
+	color:red;
+}
+hr{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+#leftAll{
+	padding-right: 2px;
+}
+#rightAll{
+	padding-left: 2px;
+}
+.row{
+	margin-bottom: 40px;
+}
+#left{
+	padding-left: 30px;
+	padding-right: 30px;
+	top: -19px;
+}
+

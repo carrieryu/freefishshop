@@ -1,0 +1,211 @@
+h5{
+	padding-top: 15px;
+}
+h4 p small{
+	font-family: "微软雅黑";
+	font-style: italic;
+	font-size: 10px;
+	color: rgb(255,128,255);
+}
+.title{
+	padding-left: 10px;
+}
+.submenu a{
+	color: #000000;
+}
+.jumbotron{
+	height: auto;
+	margin: 5px;
+}
+.jumbotron small ul li{
+	display: inline;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.list-group{
+	padding-top: 35px;
+}
+#leftFirst{
+	/*background-color:rgb(255,128,255);*/
+	background-color: white;
+	background-image: url(../img/bg.jpeg);
+	background-size: cover;
+	padding: 20px;
+	height:auto;
+}
+#leftFirst p{
+	font-size: 15px;
+	/*background:rgba(221, 203, 221, 0.41);*/
+	padding: 10px;
+}
+#leftFirstOne{
+	padding: 20px;
+	background-color: white;
+	background-image: url(../img/bg7.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#leftFirstTwo{
+	padding: 20px;
+	background-color:white;
+	background-image: url(../img/bg9.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+#leftFirstThree{
+	padding: 20px;
+	background-color: white;
+	background-image: url(../img/bg8.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.blue{
+	height: 5px;
+}
+.row{
+	padding: 5px;
+}
+.row img{
+	height: 350px;
+	width: 550px;
+}
+.row p a{
+	margin-top: 10px;
+}
+/*#line{
+	background-color: #000000;
+}*/
+#line img{
+	height: 400px;
+	width: 250px;
+}
+/*#movie{
+	background-color: #000000;
+}*/
+#movie img{
+	height: 345px;
+	width: 200px;
+}
+/*#role{
+	background-color: #000000;
+}*/
+#role img{
+	height:290px;
+	width: 440px;
+}
+#timenews{
+padding: 15px;
+}
+#timenews p{
+font-size: 15px;
+}
+#timenews3 p{
+	font-size: 15px;
+}
+.end{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.end h2{
+	padding-left: 45px;
+}
+.end img{
+	height: 270px;
+	width: 270px;
+}
+#great img{
+	height: 310px;
+	width:650px;
+}
+#about{
+	background-color:#211221e6;
+	padding-bottom:80px;
+}
+#about h1{
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+	font-family: "lucida console";
+}
+#about h3{
+	text-align: center;
+}
+#about p{
+	padding: 5px;
+	padding-bottom: 10px;
+}
+#aboutFirst{
+	background-color:#b320d28a;
+	color: white;
+	height: 200px;
+	padding-top: 10px;
+}
+#aboutSecond{
+	background-color:#b320d282;
+	color: white;
+	height: 200px;
+	padding-top: 10px;
+}
+#aboutThird{
+	background-color:#b320d275;
+	color: white;
+	height: 200px;
+	padding-top: 10px;
+}
+#aboutFourth{
+	background-color:#b320d269;
+	color: white;
+	height: 200px;
+	padding-top: 10px;
+}
+#diamonds{
+	/*background-color: #080808;*/
+	padding-top:20px;
+	height: 200px;
+}
+#aboutFirst:hover{
+	background-color:#e081f482;
+}
+#aboutSecond:hover{
+	background-color: #e081f482;
+}
+#aboutThird:hover{
+	background-color: #e081f482;
+}
+#aboutFourth:hover{
+	background-color: #e081f482;
+}
+.contact{
+	padding-top: 20px;
+	background-color: #000000d6;
+	color: white;
+}
+.contact img{
+	height: 95px;
+	width: 290px;
+}
+#contactLeft{
+	background-color:#272828;
+}
+/*#inputText{
+	height: 300px;
+}*/
+#inputText{
+	width: 518px;
+	height: 200px;
+	color: #000000;
+}
+#block{
+	padding: 15px;
+	background-color:#5a687100;
+}
+#block img{
+	height: 350px;
+}
+#block p{
+	color: white;
+}
+#block h3{
+	color: white;
+}
+

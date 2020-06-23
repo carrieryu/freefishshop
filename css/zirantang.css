@@ -1,0 +1,136 @@
+body{
+	/*background-color:#D9D9D957;*/
+	background-color: white;
+}
+#main{
+	/*background-color: #000000;*/
+	padding-top:100px;
+}
+.container{
+	padding-right: 0px;
+}
+.row{
+	margin-right: -120px;
+	margin-left: -100px;
+}
+.row img{
+	height:250px;
+	width: 250px;
+	padding-right: 20px;
+}
+.jumbotron{
+	background-color: #fff;
+}
+#rightNav{
+	padding-top:150px;
+}
+.jumbotron a p{
+	display: inline;
+}
+#brand{
+	margin-bottom: 20px;
+	padding-right: 0px;
+}
+#brand p{
+	letter-spacing: 2px;/*字间距*/
+	line-height: 22px;/*行距*/
+}
+#brand h3{
+	margin-bottom: 15px;
+}
+#logo img{
+	height: 200px;
+	width: 200px;
+	border-color: #000000;
+	box-shadow: 1px 2px 1px 1px #28770c;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#logo{
+	padding-right: 0px;
+	margin-right: 10px;
+	padding-left: 0px;
+}
+#myCarousel{
+	background-color:#28770c;
+	padding-right: 0px;
+}
+#myCarousel img{
+	width:1000px;
+	height: 550px;
+}
+#intro{
+	padding-right: 0px;
+}
+#intro a{
+	color:#28770c;
+}
+#banner{
+	padding-right: 0px;
+	padding-left: 30px;
+}
+#first{
+	padding-right: 85px;
+}
+.rail{
+	height: 40px;
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, rgb(255, 0, 48) 1%, rgb(255, 0, 100) 100%) repeat scroll 0% 0%;
+	padding-right: 10px;
+	/*linear-gradient() 渐变*/
+}
+.rail span{
+	border-width: 0px;
+	border-style: solid; 
+	border-color: black;
+	position: relative;
+	box-sizing: border-box;
+	display: block; 
+	-moz-box-orient: vertical;
+	flex-direction: column; 
+	align-content: flex-start; 
+	flex-shrink: 0; 
+	font-size: 24px; 
+	white-space: nowrap;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 40px; 
+	line-height: 40px;
+	overflow: hidden;
+}
+#recommend{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#recommend img{
+	width:300px;
+	height:300px;
+}
+#product{
+	border: none;
+}
+#product a:hover{
+	color: red;
+}
+#cart{
+	float: right;
+	border: none;
+	padding-right: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#cart img{
+	padding-right: 0px;
+	width: 30px;
+	height: 30px;
+}
+/*.shop{
+	color: #737373;
+}
+.shop:hover{
+	color:red;
+}
+.shop small{
+	font-size:16px;
+}*/
+
+

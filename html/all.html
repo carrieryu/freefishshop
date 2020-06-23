@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全部商品展示页面</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/top.css" rel="stylesheet" type="text/css">
+		<link href="../css/bottom.css" rel="stylesheet" type="text/css">
+		<link href="../css/all.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<div class="navbar-wrapper">
+			<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand"><img src="../img/logo.png" alt=""></a>
+				<!-- 汉堡按钮固定写法-->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+			 aria-expanded="false">
+				<span class="sr-only">汉堡按钮</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<a class="navbar-brand" id="nav-brand-itheima" href="../index.html"></a>
+			</div><!-- /.navbar-header -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="all.html">全部分类</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							经典单品
+						<span class="caret"></span>
+						</a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header">护肤</li>
+							 <li><a href="html/p rocess.html">防晒</a></li>
+                  			<li><a href="html/process.html">润唇膏</a></li>
+                  			<li><a href="html/process.html">化妆水</a></li>
+                  			<li><a href="">乳液面霜</a></li>
+                  			<li><a href="">面膜</a></li>
+                  			<li><a href="">洁面</a></li>
+                  			<li><a href="">更多护肤</a></li>
+                  			 <li role="separator" class="divider"></li>
+                  			<li class="dropdown-header">彩妆</li>
+                  			<li><a href="html/process.html">粉底</a></li>
+                 			 <li><a href="html/process.html">口红</a></li>
+                  			<li><a href="html/process.html">眼影眼线</a></li>
+                  			<li><a href="html/process.html">隔离</a></li>
+                  			<li><a href="">更多美妆</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="html/process.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							优享套装
+						<span class="caret"></span>
+						</a>
+					<ul class="dropdown-menu">
+							 <li><a href="html/process.html">护肤套装</a></li>
+                 			 <li><a href="html/process.html">男士护肤套装</a></li>
+                  			<li><a href="html/process.html">美妆套装</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="html/process.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							美容美体
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							 <li><a href="html/process.html">香水</a></li>
+                  			<li><a href="html/process.html">美甲</a></li>
+                 			 <li><a href="html/process.html">手霜手膜</a></li>
+                 			  <li role="separator" class="divider"></li>
+                  			<li class="dropdown-header">工具</li>
+                  			<li><a href="html/process.html">美容仪</a></li>
+                  			<li><a href="html/process.html">洗脸仪</a></li>
+                  			<li><a href="html/process.html">按摩仪</a></li>
+						</ul>
+					</li>
+					<li><a href="">关于我们</a></li>
+					<li class="dropdown">
+						<a href="html/process.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							我的
+						<span class="caret"></span>
+						</a>
+					<ul class="dropdown-menu">
+							 <li><a href="#">个人主页</a></li>
+                 			 <li><a href="shoppingcart.html">购物车</a></li>
+                  			<li><a href="order.html">我的订单</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+              <li><a href="../index.html">首页<span class="sr-only">(current)</span></a></li>
+              <li><a href="login.html" target="login">登录</a></li>
+              <li><a href="join.html" target="join">注册</a></li>
+            </ul>
+             <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+			</div>
+		</div><!--/.container-fluid -->
+		</nav>
+		</div>
+	</div>
+<!--导航栏结束================================================================= -->
+
+<!--全部分类导航开始================================================================= -->
+<div class="classify">
+	<div class="container-fluid">
+		<div class="col-sm-12 col-lg-12" id="bg">
+			<img src="../img/bg10.png">
+			<p>做自己的艺术家</p>
+		</div>
+	<ul class="nav nav-tabs">
+		<li role="presentation" class="active"><a href="#">全部产品</a></li>
+		<li role="presentation"><a href="czface.html">全部彩妆产品</a></li>
+		<li role="presentation"><a href="water.html">全部护肤产品</a></li>
+		<li role="presentation"><a href="mei.html">全部美容美体产品</a></li>
+		<li role="presentation"><a href="store.html">全部店铺</a></li>
+	</ul>
+	</div>
+	
+	 <!-- 大概子菜单预览   submenu -->
+ <div class="submenu">
+ 	<div class="container-fluid">
+ 		<div class="row">
+ 			<div class="col-xs-offset-0 col-sm-12">
+ 				<div class="jumbotron" id="jum">
+ 					<div class="row">
+ 					<div class="col-xs-12 col-lg-4">
+ 						<a>口红</a>&nbsp;|&nbsp;<a>粉底</a>&nbsp;|&nbsp;<a>眼影 眼线</a>&nbsp;|&nbsp;<a>隔离</a>&nbsp;|&nbsp;<a>修容</a>&nbsp;|&nbsp;<a>眉粉</a>&nbsp;|&nbsp;<a>睫毛膏</a>
+ 						<h4><p><a class="btn btn-default" href="czface.html" role="button">美妆博主推荐&nbsp;&nbsp;»</a><small>&nbsp;打造完美妆容</small></p></h4>
+ 					
+ 					</div><!--/.col-xs-12.col-lg-4-->
+ 					<div class="col-xs-12 col-lg-5">
+ 						
+ 							<a>润唇膏</a>&nbsp;|&nbsp;<a>防晒</a>&nbsp;|&nbsp;<a>化妆水</a>&nbsp;|&nbsp;<a>乳液面霜</a>&nbsp;|&nbsp;<a>面膜</a>&nbsp;|&nbsp;<a>洁面</a>&nbsp;|&nbsp;<a>男士洁面</a>&nbsp;|&nbsp;<a>精华</a>&nbsp;|&nbsp;<a>眼霜</a>&nbsp;
+ 						
+ 						<h4><p><a class="btn btn-default" href="html/process.html" role="button">护肤品经典老店&nbsp;&nbsp;»</a><small>&nbsp;保护修护皮肤基底</small></p></h4>
+ 					</div><!--/.col-xs-12.col-lg-3-->
+ 					<div class="col-xs-12 col-lg-3">
+ 						
+ 							<a>手霜手膜</a>&nbsp;|&nbsp;<a>香水</a>&nbsp;|&nbsp;<a>美甲</a> &nbsp;|&nbsp;<a>美容仪</a>
+ 						
+ 						<h4><p><a class="btn btn-default" href="html/process.html" role="button">李医生推荐&nbsp;&nbsp;»</a><small>&nbsp;全身精致</small></p></h4>
+ 					</div><!--/.col-xs-12.col-lg-4-->
+ 				</div>
+ 			</div> <!--/.col-xs-offset-0 col-sm-12-->
+ 		</div><!--/.row-->
+ 				</div>
+ 	</div><!--/.container-->
+ </div><!--/.submenu-->
+ <!-- 大概子菜单预览   submenu 结束================================================= -->
+</div>
+<!--全部分类导航结束================================================================= -->
+
+<!--全部商品展示开始================================================================= -->
+		<div class="all">
+			<div class="container-fluid" id="all">
+				<div class="row">
+					<div class="col-sm-12 col-lg-6" id="leftAll">
+						<div class="col-sm-12 col-lg-12"   id="allrow">
+						<h2>彩妆商品</h2>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/m4.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a href="commodity.html" target="commodity">【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/s1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥335</h3>
+        					<a>圣罗兰细管纯口红小金条复古持久哑光复古正红,店铺持续好评口红 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>ysl圣罗兰美妆官方旗舰店
+</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/mb1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥139</h3>
+        					<a>欧莱雅哑光控油24小时粉底液bb霜女学生持久遮瑕油皮亲妈不脱妆 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>欧莱雅官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/yue1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥188</h3>
+        					<a>innisfree/悦诗风吟私人定制粉底液遮瑕液保湿持久提亮粉质细腻 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>悦诗风吟官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/w4.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥45</h3>
+        					<a>Perfect Diary完美日记四色眉粉防水防汗自然不易脱色持久眉笔女  </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>完美日记官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/zi1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥142</h3>
+        					<a>自然堂渐变色马卡龙塑颜腮红一盒多用自然服帖好气色女学生正品 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="zirantang.html" class="shop" target="new"><small>自然堂官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-lg-6" id="rightAll">
+						<div class="col-sm-12 col-lg-12"   id="allrow">
+						<h2>护肤商品</h2>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥598</h3>
+        					<a>HFP补水保湿美白套装 爽肤水乳液控油烟酰胺护肤化妆品正品男女士 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>HFP官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/2.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥319</h3>
+        					<a href="comtwo.html" target="comtwo">自然堂雪域洗面奶水乳护肤品套装正品补水保湿护肤化妆品学生官网  </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="zirantang.html" class="shop" target="zirantang"><small>自然堂官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/3.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥15</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/4.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥172</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/5.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥1600</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/6.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+					</div>
+				</div>
+				
+				</div>
+			</div>
+	<!--全部商品 -->
+			<div class="row">
+					<div class="col-sm-12 col-lg-12" id="left">
+						<div class="col-sm-12 col-lg-12"   id="allrow">
+						<h2>全部商品</h2>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/eye1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/w2.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/1.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/2.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/3.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/4.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/7.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/water/8.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/5.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/6.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/7.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="thumbnail" id="product">
+      						<img src="../img/face/8.jpg" alt="...">
+      						<div class="caption">
+        					<h3>￥170</h3>
+        					<a>【圣诞礼物】MAC/魅可尤雾弹唇膏哑光口红316/923人间水蜜桃新款 </a>
+        					<hr />
+        <p><!--<a href="#" class="btn btn-primary" role="button">Button</a>-->
+        	<a href="#" class="shop"><small>MAC官方旗舰店</small></a>
+        	<a href="" class="btn btn-default" role="button" id="cart"><img src="../img/icon/cart.png"/></a>
+      </div>
+    </div>
+						</div>
+						
+						<!--分页开始-->
+		<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+		<!--分页结束-->
+						
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+<!--全部商品展示结束================================================================= -->
+		
+<!--footer开始================================================================= -->	
+		<footer class="navbar-fixed-bottom navbar-default">
+		<div class="container">
+			<div class="footer-left">
+				<p>HTML CSS Bootstrap Free美妆网 | 版权所有：lidan<a href="#"></a></p>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li><a href="#"><i>&nbsp;&nbsp;&nbsp;</i></a></li>
+					<li><a href="#"><i>&copy;email:1979384218@qq.com</i></a></li>
+					<li><a href="#"><i>phone:12345678910</i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+             <!--
+             	作者：1979384218@qq.com
+             	时间：2019-11-26
+             	描述：
+             -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
